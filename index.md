@@ -1,12 +1,5 @@
 # Welcome to my Portfolio/GitHub site
 
-[GitHub](https://github.com/fvgras/) contains the Data Science Immersion cohort projects.
-
-[Master index.md](https://github.com/fvgras/fvgras.github.io/edit/master/index.md) has this landing page Markdown files.
-
-
-When this landing page has/is commit to the repository, [Jekyll](https://jekyllrb.com/) will run to rebuild the site/page(s) based on the Markdown file(s).
-
 ## Skill/Project/Knowledge list:
 
 Inter-related list `connecting` **skills** to _projects_ 
@@ -24,6 +17,10 @@ Inter-related list `connecting` **skills** to _projects_
 1. Big Data
 2. DataFrames w/Pandas
 3. Spark/Hadoop/HDFS
+- Linux:
+1. RedHat
+2. Fedora
+3. Ubuntu - raspian
 - See more about me 
 ![Image](./fred_editor_image.png)
 
@@ -33,6 +30,9 @@ footnote: Replace image with my picture
 ```
 
 ### References:
+[GitHub](https://github.com/fvgras/) contains the Data Science Immersion cohort projects.
+[Master index.md](https://github.com/fvgras/fvgras.github.io/edit/master/index.md) has this landing page Markdown files.
+When this landing page has/is commit to the repository, [Jekyll](https://jekyllrb.com/) will run to rebuild the site/page(s) based on the Markdown file(s).
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ##### Jekyll Theme
