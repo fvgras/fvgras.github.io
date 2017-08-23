@@ -1,1 +1,60 @@
+# Jekyll theme
+#
 theme: jekyll-theme-modernist
+
+
+# Site settings
+title: Fred Gras
+description: General Assembly &#x2192; Data Science Immersive
+owner:
+  name: Fred Gras # or company name
+  email: fvgras@gmail.com
+  url: http://fvgras.github.io
+first_published: 2017 # if migrating another site, the year of your first publish
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://fvgras.github.io" # the base hostname & protocol for your site
+
+
+# on all pages (and the first three you list display with greeting, if included)
+social:
+  github: https://github.com/fvgras
+  linkedin-square: https://linkedin.com/in/fredgras
+  facebook-official: https://www.facebook.com/fred.gras.31
+  google-plus-square: https://plus.google.com/+FredGras123
+  #email: /contact/
+  email: mailto:fvgras@gmail.com
+  trello: https://trello.com/b/8JidnY4s/fg-tracker
+  slack: https://ga-students.slack.com
+  amazon: https://fvgras.signin.aws.amazon.com/console
+  #twitter:
+  #flickr:
+  #instagram:
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+

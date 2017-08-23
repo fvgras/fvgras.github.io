@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Welcome to my Portfolio/GitHub site
 
-You can use the [editor on GitHub](https://github.com/fvgras/fvgras.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+[GitHub](https://github.com/fvgras/) contains the Data Science Immersion cohort projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Master index.md@](https://github.com/fvgras/fvgras.github.io/edit/master/index.md) has this landing page Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+When this landing page has/is commit to the repository, [Jekyll](https://jekyllrb.com/) will run to rebuild the site/page(s) based on the Markdown file(s).
+
+## Skill/Project/Knowledge list:
+
+Inter-related list `connecting` **skills** to _projects_ 
+
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+footnote: 
+see ![Image](src)
 ```
+
+### References:
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+#### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fvgras/fvgras.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fvgras/fvgras.github.io/settings). 
 
-### Support or Contact
+#### Docs or Support (@github)
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## Contact ME@: [fvgras@gmail.com](mailto:fvgras@gmail.com)
