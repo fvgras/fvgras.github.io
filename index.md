@@ -1,28 +1,25 @@
-# Welcome to my Portfolio/GitHub site
+# Welcome to my Portfolio/GitHub page 
 
 ## Skill/Project/Knowledge list:
 
-Inter-related list `connecting` **skills** to _projects_ 
+Inter-related list `connecting` **skills** to _projects_
 - Language(s)
 1. Python w/ Anaconda
 2. Scala w/ AWS/EMR-5.8.0
 - Notebook(s)
 1. Jupyter w/ python2&3
-2. Zeppelin w/Hadoop-2.7.3/Pig-0.16.0/Hue-3.12.0/Hive-2.3.0 
+2. Zeppelin w/Hadoop-2.7.3/Pig-0.16.0/Hue-3.12.0/Hive-2.3.0
 - Project(s)
 1. Capstone - Cruise Data from [data.world](https://data.world/brandon-telle)
 2. bokeh - Visualization
 3. Tableau (public)
 - DataSet(s)
-1. Big Data
+1. Big Data Challenges
 2. DataFrames w/Pandas
 3. Spark/Hadoop/HDFS
-- Linux:
-1. RedHat
-2. Fedora
-3. Ubuntu - raspian
+- Linux: Fedora/RedHat/Ubuntu/Raspian
 - See more about me 
-![Image](./fred_editor_image.png)
+- ![Image](./fred_editor_image.png)
 
 
 ```markdown
@@ -36,9 +33,15 @@ When this landing page has/is commit to the repository, [Jekyll](https://jekyllr
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ##### Jekyll Theme
-This site will uses the layout and styles from the Jekyll theme selected in [repository settings](https://github.com/fvgras/fvgras.github.io/settings). 
+This site will uses the layout and styles from the Jekyll theme selected in [repository settings](https://github.com/fvgras/fvgras.github.io/settings).
 
 ##### Docs or Support (@github)
 Check out [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) for details.
 
 ## Contact ME w/ [fvgras@gmail.com](mailto:fvgras@gmail.com)
+- [linkedin](https://linkedin.com/in/fredgras)
+- [facebook](https://www.facebook.com/fred.gras.31)
+- [google+](https://plus.google.com/+FredGras123)
+
+#### Blog Post(s)
+- [medium](https://medium.com/@fvgras/travel-trends-9c26352b77a6)
