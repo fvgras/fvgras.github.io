@@ -5,7 +5,7 @@ theme: jekyll-theme-modernist
 
 # Site settings
 title: Fred Gras
-description: General Assembly &#x2192; Data Science Immersive
+description: General Assembly (ATX) &#x2192; Data Science Immersive
 owner:
   name: Fred Gras # or company name
   email: fvgras@gmail.com
@@ -26,6 +26,7 @@ social:
   trello: https://trello.com/b/8JidnY4s/fg-tracker
   slack: https://ga-students.slack.com
   amazon: https://fvgras.signin.aws.amazon.com/console
+  medium: https://medium.com/@fvgras
   #twitter:
   #flickr:
   #instagram:

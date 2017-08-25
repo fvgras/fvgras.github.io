@@ -1,8 +1,6 @@
 # Welcome to my Portfolio/GitHub page 
 
-## Skill/Project/Knowledge list:
-
-Inter-related list `connecting` **skills** to _projects_
+Inter-related list `connecting` **skills** to _project_ _knowledge_
 - Language(s)
 1. Python w/ Anaconda
 2. Scala w/ AWS/EMR-5.8.0
@@ -17,9 +15,9 @@ Inter-related list `connecting` **skills** to _projects_
 1. Big Data Challenges
 2. DataFrames w/Pandas
 3. Spark/Hadoop/HDFS
-- Linux: Fedora/RedHat/Ubuntu/Raspian
+- Linux: Fedora/RedHat/Raspian/Suze/Ubuntu
 - See more about me 
-- ![Image](./fred_editor_image.png)
+- ![Image](./images/fred_editor_image.png)
 
 
 ```markdown
@@ -44,4 +42,4 @@ Check out [documentation](https://help.github.com/categories/github-pages-basics
 - [google+](https://plus.google.com/+FredGras123)
 
 #### Blog Post(s)
-- [medium](https://medium.com/@fvgras/travel-trends-9c26352b77a6)
+- [medium](https://medium.com/@fvgras)
