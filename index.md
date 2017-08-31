@@ -18,18 +18,6 @@ Inter-related list `connecting` **skills** to _project_ _knowledge_
 - Linux: Fedora/RedHat/Raspian/Suze/Ubuntu
 - My Image(s)
 - ![Face](./images/gras-fred2_pp.jpg)
-- ![Sig](./images/fred_editor_image.png)
-
-
-```markdown
-footnote: Replace image with my picture
-```
-
-##### Jekyll Theme
-This site will uses the layout and styles from the Jekyll theme selected in [repository settings](https://github.com/fvgras/fvgras.github.io/settings).
-
-##### Docs or Support (@github)
-Check out [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) for details.
 
 ## Contact ME w/ [fvgras@gmail.com](mailto:fvgras@gmail.com)
 - [linkedin](https://linkedin.com/in/fredgras)
@@ -40,9 +28,4 @@ Check out [documentation](https://help.github.com/categories/github-pages-basics
 
 ### More Reference/Info:
  - [etc](./reference.md) 
-
-```markdown
-footnote: Replace image with my picture
-```
-
 

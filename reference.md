@@ -1,4 +1,7 @@
 
+```markdown
+ 
+```
 ### References:
 [GitHub](https://github.com/fvgras/) contains the Data Science Immersion cohort projects.
 [Master index.md](https://github.com/fvgras/fvgras.github.io/edit/master/index.md) has this landing page Markdown files.
@@ -10,4 +13,10 @@ This site will uses the layout and styles from the Jekyll theme selected in [rep
 
 ##### Docs or Support (@github)
 Check out [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) for details.
+
+- ![Sig](./images/fred_editor_image.png)
+
+```markdown
+ 
+```
 
