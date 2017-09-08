@@ -12,15 +12,15 @@
 * **Dataset(s)**
   * **Big Data Challenges**
   * **DataFrames w/Pandas**
+  * **SQL**
 
 * **Linux: Fedora/RedHat/Rasbian/Suze/Ubuntu**
-* **SQL:**
 
 ## Contact me ---> [fvgras@gmail.com](mailto:fvgras@gmail.com) 
--- [linkedin](https://linkedin.com/in/fredgras) --- [facebook](https://www.facebook.com/fred.gras.31) --- [google+](https://plus.google.com/+FredGras123) --- [medium](https://medium.com/@fvgras) --- [tableau](https://public.tableau.com/profile/fred.gras#!/) --
+--> [linkedin](https://linkedin.com/in/fredgras) <---> [facebook](https://www.facebook.com/fred.gras.31) <---> [google+](https://plus.google.com/+FredGras123) <---> [medium](https://medium.com/@fvgras) <---> [tableau](https://public.tableau.com/profile/fred.gras#!/) <--
 
 **Myface**
 * ![Myface](./images/gras-fred2_pp.jpg)
 
 ### More Reference/Info:)
-[next page](./reference.md) 
+[next page](./reference.md) --->
