@@ -14,6 +14,7 @@ This site will uses the layout and styles from the Jekyll theme selected in [rep
 ##### Docs or Support (@github)
 Check out [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) for details.
 
+- ![Face](./images/gras-fred2_pp.jpg)
 - ![Sig](./images/fred_editor_image.png)
 
 ```markdown
