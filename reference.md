@@ -1,7 +1,3 @@
-
-```markdown
- 
-```
 ### References:
 [GitHub](https://github.com/fvgras/) contains the Data Science Immersion cohort projects.
 [Master index.md](https://github.com/fvgras/fvgras.github.io/edit/master/index.md) has this landing page Markdown files.
@@ -20,4 +16,3 @@ Check out [documentation](https://help.github.com/categories/github-pages-basics
 ```markdown
  
 ```
-
