@@ -1,4 +1,4 @@
-# Welcome to my Portfolio/GitHub page 
+# My Portfolio GitHub Welcome page 
 
 **Connecting** _skills_ `__with__` *practice*
 * **Languages**
@@ -19,6 +19,6 @@
 ## Contact me |---> [fvgras@gmail.com](mailto:fvgras@gmail.com) 
 |--> [linkedin](https://linkedin.com/in/fredgras) <--|--> [GAprofile](https://profiles.generalassemb.ly/profiles/fred-gras) <--|--> [facebook](https://www.facebook.com/fred.gras.31) <--|--> [google+](https://plus.google.com/+FredGras123) <--|--> [medium](https://medium.com/@fvgras) <--|--> [tableau](https://public.tableau.com/profile/fred.gras#!/) <--|
 
-### Cruise Ship Capstone Project:) |---> [next page](./cruise-ship-proj.md)
 ```markdown
 ```
+### Cruise Ship capstone page:-) |---> [next page](./cruise-ship-proj.md)

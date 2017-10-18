@@ -3,7 +3,6 @@
 
 - ![ship](./images/night_ship_image_usatoday.jpg)
 
-### Further Reference Info:) |---> [next page](./reference.md) 
-
 ```markdown
 ```
+### Final References page:-) |---> [next page](./reference.md) 
