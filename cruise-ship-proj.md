@@ -5,4 +5,4 @@
 
 ```markdown
 ```
-### Final References page:-) |---> [next page](./reference.md) 
+#### **Final References page:-) ------>** [next page](./reference.md) 
