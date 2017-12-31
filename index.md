@@ -18,7 +18,7 @@
   * **ESP8266**
   * **Particle/Photon**
 
-#### **Linux: CentOS+Fedora+Kali+openSUSE-13+RedHat+Raspbian+Ubuntu**
+#### **Linux: CentOS+Fedora+Kali+LEDE+openSUSE-13+RedHat+Raspbian+Ubuntu**
 
 ## **Contact me ------>** [fvgras@gmail.com](mailto:fvgras@gmail.com) 
 |--> [linkedin](https://linkedin.com/in/fredgras) <--|--> [GAprofile](https://profiles.generalassemb.ly/profiles/fred-gras) <--|--> [facebook](https://www.facebook.com/fred.gras.31) <--|--> [google+](https://plus.google.com/+FredGras123) <--|--> [medium](https://medium.com/@fvgras) <--|--> [tableau](https://public.tableau.com/profile/fred.gras#!/) <--|
