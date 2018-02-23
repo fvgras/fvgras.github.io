@@ -1,19 +1,131 @@
 
 ### Micro Python Project:
 
-#### download uPython to ESP8266
+#### Problem/Challenge: Explore simplicity of Python with download uPython to ESP8266
 
-#### Repl interface...
+#### Why: Explore (1) REPL interface (2) rshell interface
 
-#### rshell interface...
+#### Description: use the platform as a wifi detector (Thanks2 Ccooper)
 
-#### wifi detector code...
+#### Technical Components: (1) esp8266-20171101-v1.9.3.bin (size 600kb)
 
-### LEDE Project:
+```markdown
+>>> help('modules')
+__main__          http_client_ssl   sys               urandom
+_boot             http_server       time              ure
+_onewire          http_server_ssl   uasyncio/__init__ urequests
+_webrepl          inisetup          uasyncio/core     urllib/urequest
+apa102            json              ubinascii         uselect
+array             lwip              ucollections      usocket
+btree             machine           uctypes           ussl
+builtins          math              uerrno            ustruct
+dht               micropython       uhashlib          utime
+ds18x20           neopixel          uheapq            utimeq
+errno             network           uio               uzlib
+esp               ntptime           ujson             webrepl
+example_pub_button onewire           umqtt/robust      webrepl_
+example_sub_led   os                umqtt/simple      websocket
+flashbdev         port_diag         uos               websocket_helper
+framebuf          select            upip
+gc                socket            upip_utarfile
+http_client       ssd1306           upysh
+Plus any modules on the filesystem
+>>> import uos
+>>> version
+MicroPython v1.9.3-8-g63826ac5c on 2017-11-01; ESP module with ESP8266
+Type "help()" for more information.
+>>> help
+<function>
+>>> help()
+Welcome to MicroPython!
 
-#### Replace my ethernet cable to TV with wifi
+For online docs please visit http://docs.micropython.org/en/latest/esp8266/ .
+For diagnostic information to include in bug reports execute 'import port_diag'.
 
-#### program LEDE router as AP for link between home WIFI and TV-Ethernet
+Basic WiFi configuration:
+
+import network
+sta_if = network.WLAN(network.STA_IF); sta_if.active(True)
+sta_if.scan()                             # Scan for available access points
+sta_if.connect("<AP_name>", "<password>") # Connect to an AP
+sta_if.isconnected()                      # Check for successful connection
+# Change name/password of ESP8266's AP:
+ap_if = network.WLAN(network.AP_IF)
+ap_if.config(essid="<AP_NAME>", authmode=network.AUTH_WPA_WPA2_PSK, password="<password>")
+
+Control commands:
+  CTRL-A        -- on a blank line, enter raw REPL mode
+  CTRL-B        -- on a blank line, enter normal REPL mode
+  CTRL-C        -- interrupt a running program
+  CTRL-D        -- on a blank line, do a soft reset of the board
+  CTRL-E        -- on a blank line, enter paste mode
+
+For further help on a specific object, type help(obj)
+>>> import network
+>>> sta_if = network.WLAN(network.STA_IF); sta_if.active(True)
+
+>>> sta_if.connect("BCMudCC","BCMud16318")
+>>> sta_if.isconnected()
+True
+>>> import webrepl_setup
+WebREPL daemon auto-start status: disabled
+
+Would you like to (E)nable or (D)isable it running on boot?
+(Empty line to quit)
+> E
+To enable WebREPL, you must set password for it
+New password (4-9 chars): replYes
+Confirm password: replYes
+Changes will be activated after reboot
+Would you like to reboot now? (y/n) y
+...
+>>> import network
+>>> sta = network.WLAN(network.STA_IF)
+>>> sta.ifconfig()
+('192.168.2.14', '255.255.255.0', '192.168.2.1', '192.168.2.1')
+>>>
+WebREPL connection from: ('192.168.2.11', 47702)
+>>> import machine
+>>> dir(machine)
+['__name__', 'mem8', 'mem16', 'mem32', 'freq', 'reset', 'reset_cause', 'unique_id', 'idle', 'sleep', 'deepsleep', 'disable_irq', 'enable_irq', 'time_pulse_us', 'RTC', 'Timer', 'WDT', 'Pin', 'Signal', 'PWM', 'ADC', 'UART', 'I2C', 'SPI', 'DEEPSLEEP', 'PWRON_RESET', 'HARD_RESET', 'DEEPSLEEP_RESET', 'WDT_RESET', 'SOFT_RESET']
+>>> p=machine.Pin(2,machine.Pin.OUT)
+>>> p.on()
+>>> p.off()
+>>> p2=machine.PWM(p)
+>>> type(p2)
+<class 'PWM'>
+>>> dir(p2)
+['init', 'deinit', 'freq', 'duty']
+>>> p2.freq(1)
+>>> p2.duty(50)
+>>> p2.deinit()
+>>> dir(machine.Pin)
+['init', 'value', 'off', 'on', 'irq', 'IN', 'OUT', 'OPEN_DRAIN', 'PULL_UP', 'IRQ_RISING', 'IRQ_FALLING']
+>>>
+
+```
+
+#### Results: Project works, thanks ChrisC.
+
+#### References: (a) MicroPython on a ESP8266@PyTexas2017.pdf
+
+### LEDE Project: 
+
+#### Problem/Challenge: Replace my ethernet cable to smartTV with wifi
+
+#### Why: program LEDE router as AP for link between home WIFI and TV-Ethernet
+
+#### Description: Use Rpi-2 with customized LEDE
+
+#### Technical Components: use USB-Wifi module (added since it is not built in)
+
+```markdown
+Problem: still need driver module for this USB-wifi
+```
+
+#### Results: Project still in construction
+
+#### References: (a) using LEDE v17
 
 ```markdown
 ```
