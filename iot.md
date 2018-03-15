@@ -34,8 +34,6 @@ Plus any modules on the filesystem
 >>> version
 MicroPython v1.9.3-8-g63826ac5c on 2017-11-01; ESP module with ESP8266
 Type "help()" for more information.
->>> help
-<function>
 >>> help()
 Welcome to MicroPython!
 
@@ -102,6 +100,27 @@ WebREPL connection from: ('192.168.2.11', 47702)
 >>> dir(machine.Pin)
 ['init', 'value', 'off', 'on', 'irq', 'IN', 'OUT', 'OPEN_DRAIN', 'PULL_UP', 'IRQ_RISING', 'IRQ_FALLING']
 >>>
+
+$rshell
+Welcome to rshell. Use Control-D to exit.
+>help
+
+Documentated commands (type help <topic>):
+args    cat   connect echo  filesize  help mkdir   rm   shell
+boards  cd    cp      edit  filetype  ls   repl    rsync
+
+>help connect
+...
+>connect serial /dev/ttyUSB0
+>boards
+pyboard @ /dev/ttyUSRB0 connected Dirs: /boot.py /webrepl_cfg.py /pyboard/boot.py ...
+>ls /pyboard/
+...
+>repl
+Entering REPL. Use Control-X to exit.
+>>>
+
+Note: my unique wifi-enabled network is --> MycroPython-1ace8c
 
 ```
 
