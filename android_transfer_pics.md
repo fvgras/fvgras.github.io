@@ -18,7 +18,7 @@
   * A power-only USB cable will not work (this is only for charging)
 * On your phone, tap to show the notification area
   * Select "Charging this device via USB" notification.
-   -OR-
+   _-OR-_
   * Select "Connect as a media device" and "Touch for other USB options"
     * then displays: Media Device (MTP) -- Allows you to transfer media files in Windows, or using Andoid file transfer on a MAC (see www.android.com/filetransfer)
 * Under "Use USB for," select File Transfer.
@@ -29,15 +29,15 @@
   * Select it and select "Open Device to view files" 
     * a new File explorer window will open up
       * Your options are simcard
-       -OR-
+       _-OR-_
       * your Device
       * You may have pictures at both storage locations
         * Select **DCIM**  (see en.wikipedia.org/wiki/Design_rule_for_camera_file_system)
           * Select **Camera**
             * Select each picture with **ctrl-left-mouse**
-             -OR-
+             _-OR-_
             * Select all pictures with **ctrl-A**
-             -OR-
+             _-OR-_
             * **unselect** pictures with **ctrl-left-mouse** (works also)
 * After pictures selected, drag files to destination folder with **right-mouse-button**
   * Then released, it will give you option to **MOVE** or **COPY**

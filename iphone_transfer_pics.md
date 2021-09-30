@@ -26,12 +26,12 @@
       * Select "Internal Storage)
         * Select **DCIM**  (see en.wikipedia.org/wiki/Design_rule_for_camera_file_system)
           * Select **Apple 10x** folder
-           -OR-
+           _-OR-_
           * Select **202109_**  prefix folder on newer iOS 15.0
             * Select each picture with **ctrl-left-mouse**
-             -OR-
+             _-OR-_
             * Select all pictures with **ctrl-A**
-             -OR-
+             _-OR-_
             * **unselect** pictures with **ctrl-left-mouse** (works also)
 * After pictures selected, drag files to destination folder with **right-mouse-button**
   * Then released, it will give you option to **MOVE** or **COPY**
