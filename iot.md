@@ -7,32 +7,34 @@
 
 #### Description: use the platform as a wifi detector (Thanks2 Ccooper)
 
-#### Technical Components: (1) esp8266-20171101-v1.9.3.bin (size 600kb)
+#### Technical Components: (1) esp8266-20180511-v1.9.4.bin (size 604kb)
 
-```markdown
+```code
 >>> help('modules')
-__main__          http_client_ssl   sys               urandom
-_boot             http_server       time              ure
-_onewire          http_server_ssl   uasyncio/__init__ urequests
-_webrepl          inisetup          uasyncio/core     urllib/urequest
-apa102            json              ubinascii         uselect
-array             lwip              ucollections      usocket
-btree             machine           uctypes           ussl
-builtins          math              uerrno            ustruct
-dht               micropython       uhashlib          utime
-ds18x20           neopixel          uheapq            utimeq
-errno             network           uio               uzlib
-esp               ntptime           ujson             webrepl
-example_pub_button onewire           umqtt/robust      webrepl_
-example_sub_led   os                umqtt/simple      websocket
-flashbdev         port_diag         uos               websocket_helper
-framebuf          select            upip
-gc                socket            upip_utarfile
-http_client       ssd1306           upysh
+__main__          http_client       socket            upip  
+_boot             http_client_ssl   ssd1306           upip_utarfile 
+_onewire          http_server       ssl               upysh
+_webrepl          http_server_ssl   struct            urandom 
+apa102            inisetup          sys               ure 
+array             io                time              urequests 
+binascii          json              uasyncio/__init__ urllib/urequest
+btree             lwip              uasyncio/core     uselect 
+builtins          machine           ubinascii         usocket 
+collections       math              ucollections      ussl 
+dht               micropython       ucryptolib        ustruct 
+ds18x20           neopixel          uctypes           utime 
+errno             network           uerrno            utimeq
+esp               ntptime           uhashlib          uzlib 
+example_pub_button                  onewire           uheapq            webrepl
+example_sub_led   os                uio               webrepl_setup 
+flashbdev         port_diag         ujson             websocket
+framebuf          random            umqtt/robust      websocket_helper
+gc                re                umqtt/simple      zlib
+hashlib           select            uos                                                                                                               
 Plus any modules on the filesystem
 >>> import uos
->>> version
-MicroPython v1.9.3-8-g63826ac5c on 2017-11-01; ESP module with ESP8266
+>>> (cntl-D)  <-- soft reboot 
+MicroPython v1.10-8-g8b7039d7d on 2019-01-26; ESP module with ESP8266
 Type "help()" for more information.
 >>> help()
 Welcome to MicroPython!
@@ -63,8 +65,12 @@ For further help on a specific object, type help(obj)
 >>> sta_if = network.WLAN(network.STA_IF); sta_if.active(True)
 
 >>> sta_if.connect("BCMudCC","BCMud16318")
+-OR-
+>>> sta_if.connect("ATXHackerspace","hackon!!")
 >>> sta_if.isconnected()
 True
+>>> sta_if.scan()
+... arp-table...
 >>> import webrepl_setup
 WebREPL daemon auto-start status: disabled
 
@@ -110,16 +116,32 @@ args    cat   connect echo  filesize  help mkdir   rm   shell
 boards  cd    cp      edit  filetype  ls   repl    rsync
 
 >help connect
-...
+connect TYPE TYPE_PARAMS
+connect serial port [baud]
+connect telnet ip-address-or-name
+
 >connect serial /dev/ttyUSB0
+Connecting to /dev/ttypUSB0 (buffer-size 512)...
+Testing if sys.stdin.buffer exists ... Y
+Retrieving root directories ... /boot.py/
+Setting time ...
+Evaluating board_name ... pyboard
+Retrieving time epoch ...
+
 >boards
-pyboard @ /dev/ttyUSRB0 connected Dirs: /boot.py /webrepl_cfg.py /pyboard/boot.py ...
+pyboard @ /dev/ttyUSRB0 connected Epoch: 2000 Dirs: /boot.py /webrepl_cfg.py /pyboard/boot.py 
+...
+
 >ls /pyboard/
 ...
 >repl
 Entering REPL. Use Control-X to exit.
+>
+MicroPython v1.10-8-g8b7039d7d on 2019-01-26; ESP module with ESP8266
+Type "help()" for more information.
 >>>
-
+>>>
+   cntl-X  (will exit repl to rshell, then cntl-D to exit) 
 Note: my unique wifi-enabled network is --> MycroPython-1ace8c
 
 ```
@@ -127,25 +149,8 @@ Note: my unique wifi-enabled network is --> MycroPython-1ace8c
 #### Results: Project works, thanks ChrisC.
 
 #### References: (a) MicroPython on a ESP8266@PyTexas2017.pdf
-
-### LEDE Project: 
-
-#### Problem/Challenge: Replace my ethernet cable to smartTV with wifi
-
-#### Why: program LEDE router as AP for link between home WIFI and TV-Ethernet
-
-#### Description: Use Rpi-2 with customized LEDE
-
-#### Technical Components: use USB-Wifi module (added since it is not built in)
-
-```markdown
-Problem: still need driver module for this USB-wifi
-```
-
-#### Results: Project still in construction
-
-#### References: (a) using LEDE v17
+#### References: (b) https://github.com/micropython/webrepl
 
 ```markdown
 ```
-#### **Final References page:-) ------>** [next page](./reference.md)
+#### **Android_Transfer_Pics page:-) ------>** [next page](./android_transfer_pics.md)

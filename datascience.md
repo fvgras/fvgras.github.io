@@ -11,8 +11,6 @@
 
 [how to uPython](https://github.com/micropython/)
 
-[how to LEDE](https://lede-project.org/)
-
 ```markdown
 ```
 #### **Next Page:-) ------>** [Internet of Things](./iot.md)
