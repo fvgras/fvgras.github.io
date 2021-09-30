@@ -10,6 +10,7 @@
 #### Technical Components: Step-by-Step
 
 ```markdown
+```
 
 * Unlock your Android phone. 
   * with swipe or pin-code
@@ -27,25 +28,22 @@
 * A Device Ready Notification will open on your computer.
   * Select it and select "Open Device to view files" 
     * a new File explorer window will open up
-	  * Your options are simcard
-	   -OR-
-	  * your Device
-	    * You may have pictures at both storage locations
-		* Select **Recorders**
-		    * Select each MP3 with **ctrl-left-mouse**
-			 -OR-
-			* Select all MP3 with **ctrl-A**
-             -OR-
-            * **unselect** MP3 with **ctrl-left-mouse** (works also)
+      * Your options are simcard
+       -OR-
+      * your Device
+        * You may have pictures at both storage locations
+        * Select **Recorders**
+          * Select each MP3 with **ctrl-left-mouse**
+           -OR-
+          * Select all MP3 with **ctrl-A**
+           -OR-
+          * **unselect** MP3 with **ctrl-left-mouse** (works also)
 * After MP3 selected, drag files to destination folder with **right-mouse-button**
   * Then released, it will give you option to **MOVE** or **COPY**
 * When you're done, **eject** your phone from Windows.
   * Confirm you have the MP3 copied (before you **eject-or-unplug**)
     * if **EJECT** option not available (proceed to next step)
 * **Unplug** the USB-mini cable.
-   
-
-```
 
 #### Results: Simple to follow
 

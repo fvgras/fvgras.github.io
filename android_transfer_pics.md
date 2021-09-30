@@ -10,6 +10,7 @@
 #### Technical Components: Step-by-Step
 
 ```markdown
+```
 
 * Unlock your Android phone. 
   * with swipe or pin-code
@@ -27,15 +28,15 @@
 * A Device Ready Notification will open on your computer.
   * Select it and select "Open Device to view files" 
     * a new File explorer window will open up
-	  * Your options are simcard
-	   -OR-
-	  * your Device
-	    * You may have pictures at both storage locations
-		* Select **DCIM**  (see en.wikipedia.org/wiki/Design_rule_for_camera_file_system)
-		  * Select **Camera**
-		    * Select each picture with **ctrl-left-mouse**
-			 -OR-
-			* Select all pictures with **ctrl-A**
+      * Your options are simcard
+       -OR-
+      * your Device
+      * You may have pictures at both storage locations
+        * Select **DCIM**  (see en.wikipedia.org/wiki/Design_rule_for_camera_file_system)
+          * Select **Camera**
+            * Select each picture with **ctrl-left-mouse**
+             -OR-
+            * Select all pictures with **ctrl-A**
              -OR-
             * **unselect** pictures with **ctrl-left-mouse** (works also)
 * After pictures selected, drag files to destination folder with **right-mouse-button**
@@ -45,8 +46,6 @@
   * Confirm you have the pictures copied (before you **eject-or-unplug**)
     * if **EJECT** option not available (proceed to next step)
 * **Unplug** the USB cable.
-
-```
 
 #### Results: Simple to follow
 

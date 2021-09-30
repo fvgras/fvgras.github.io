@@ -10,6 +10,7 @@
 #### Technical Components: Step-by-Step
 
 ```markdown
+```
 
 * Unlock your iphone. 
   * with swipe or pin-code or face-recognition
@@ -22,14 +23,14 @@
 * A Device Ready Notification will open on your computer.
   * Select it and select "Open Device to view files" 
     * a new File explorer window will open up
-	  * Select "Internal Storage)
-		* Select **DCIM**  (see en.wikipedia.org/wiki/Design_rule_for_camera_file_system)
-		  * Select **Apple 10x** folder
-		  -OR-
-		  * Select **202109_**  prefix folder on newer iOS 15.0
+      * Select "Internal Storage)
+        * Select **DCIM**  (see en.wikipedia.org/wiki/Design_rule_for_camera_file_system)
+          * Select **Apple 10x** folder
+           -OR-
+          * Select **202109_**  prefix folder on newer iOS 15.0
             * Select each picture with **ctrl-left-mouse**
-			 -OR-
-			* Select all pictures with **ctrl-A**
+             -OR-
+            * Select all pictures with **ctrl-A**
              -OR-
             * **unselect** pictures with **ctrl-left-mouse** (works also)
 * After pictures selected, drag files to destination folder with **right-mouse-button**
@@ -37,8 +38,6 @@
     * I move about 100 pictures at a time, because that is manageable
 * **Unplug** the USB-C cable.
   * Confirm you have the pictures copied (before you **unplug**)
-  
-```
 
 #### Results: Simple to follow
 
