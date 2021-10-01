@@ -5,7 +5,7 @@ theme: jekyll-theme-modernist
 
 # Site settings
 title: Fred Gras
-description: General Assembly (ATX) &#x2192; Data Science Immersive
+description: Data Science Immersive &#x2192; GA.co DSI-ATX-3
 owner:
   name: Fred Gras # or company name
   email: fvgras@gmail.com
@@ -28,7 +28,7 @@ social:
   medium: https://medium.com/@fvgras
   alignable: https://www.alignable.com/round-rock-tx/consulting
   archive-dsi-atx-3: https://ga-students.slack.com/archive/dsi-atx-3
-  #skype:
+  #skype: http://www.skype.com/
   #twitter: http://twitter.com/user_name
   #behance: http://behance.net/user_name
   #flickr:
